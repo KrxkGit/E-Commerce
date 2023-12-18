@@ -25,11 +25,11 @@ edge://net-internals/#hsts
 
 域名的https安全访问策略即可采用**http**协议访问本项目域名。而对于谷歌浏览器目前似乎并没有很好的解决方案。
 
-<img src="https://github.com/KrxkGit/E-Commerce/blob/master/Pic/1.jpg" alt="image-20231219035939159" style="zoom: 67%;" />
+<img src="https://github.com/KrxkGit/E-Commerce/blob/main/Pic/1.jpg" alt="image-20231219035939159" style="zoom: 67%;" />
 
 另外，由于服务器性能较弱，可能出现某些性能问题，经实验，后台跑 jar 包服务器内存利用率较高如下图，可能存在性能导致的问题，但由于作为演示项目，考虑暂时维持现状。
 
-<img src="https://github.com/KrxkGit/E-Commerce/blob/master/Pic/2.jpg" alt="image-20231219040002165" style="zoom:80%;" />
+<img src="https://github.com/KrxkGit/E-Commerce/blob/main/Pic/2.jpg" alt="image-20231219040002165" style="zoom:80%;" />
 
 ## 🟢源码说明
 
