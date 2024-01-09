@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.mariadb.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: ******
+#    url: jdbc:mysql://localhost:3306/e-commerce?useSSL=false
+    url: jdbc:mariadb://localhost:3306/e-commerce?useSSL=false
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false # 关闭数据库下划线到 java 的驼峰转换
+
